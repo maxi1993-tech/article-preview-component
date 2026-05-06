@@ -8,6 +8,7 @@ $bp-desktop: 1440px;
     --grey-400: hsl(212, 23%, 69%);
     --grey-500: hsl(214, 17%, 51%);
     --grey-900: hsl(217, 19%, 35%);
+    --color-footer: hsl(228, 45%, 44%);
 
     /* Typo */
     --font-family: 'Manrope', sans-serif;
@@ -51,6 +52,10 @@ html {
 body {
     background-color: var(--grey-200);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -73,11 +78,23 @@ a {
     color: inherit;
 }
 
+/* Article */
+.card {
+    background-color: var(--color-white);
+    max-width: 20.4375rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: var(--radius-card);
+    overflow: hidden;
+}
+
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
 
     a {
-        color: hsl(228, 45%, 44%);
+        color: var(--color-footer);
     }
 }
