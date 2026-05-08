@@ -177,6 +177,15 @@ a {
         z-index: 2;
         margin-left: auto;
     }
+
+    .btn-share.is-active {
+        background-color: var(--grey-500);
+    }
+
+    .btn-share.is-active path {
+        fill: white;
+    }
+
 }
 
 .wrapper-share {

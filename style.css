@@ -159,6 +159,12 @@ a {
   z-index: 2;
   margin-left: auto;
 }
+.profile .btn-share.is-active {
+  background-color: var(--grey-500);
+}
+.profile .btn-share.is-active path {
+  fill: white;
+}
 
 .wrapper-share {
   height: 4.75rem;
