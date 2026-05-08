@@ -165,15 +165,11 @@ a {
     }
 
     .btn-share {
+        background-color: var(--grey-200);
         width: 2rem;
         height: 2rem;
         border-radius: var(--radius-img);
         border: none;
-
-        svg {
-            width: 32px;
-            height: 32px;
-        }
     }
 }
 
