@@ -124,7 +124,6 @@ a {
   display: flex;
   align-items: center;
   gap: 1rem;
-  display: none;
 }
 .profile .author-info .author {
   display: flex;
@@ -164,7 +163,7 @@ a {
 .wrapper-share {
   height: 4.75rem;
   background-color: var(--grey-900);
-  display: flex;
+  display: none;
   align-items: center;
   padding: 1rem 2rem;
   border-radius: 0 0 10px 10px;
@@ -173,6 +172,9 @@ a {
   top: -1rem;
   width: 100%;
   z-index: 1;
+}
+.wrapper-share.is-active {
+  display: flex;
 }
 .wrapper-share .share-panel {
   width: 100%;
