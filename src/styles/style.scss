@@ -293,3 +293,24 @@ a {
         }
     }
 }
+
+@media (min-width: $bp-desktop) {
+
+    .card {
+        max-width: 45.625rem;
+        min-height: 17.5rem;
+        gap: 2.5rem;
+
+        .img-card {
+            width: 285px;
+            height: 280px;
+        }
+
+        .container-content {
+
+            .card-content {
+                width: auto;
+            }
+        }
+    }
+}

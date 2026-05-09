@@ -259,5 +259,19 @@ a {
     bottom: -24px;
   }
 }
+@media (min-width: 1440px) {
+  .card {
+    max-width: 45.625rem;
+    min-height: 17.5rem;
+    gap: 2.5rem;
+  }
+  .card .img-card {
+    width: 285px;
+    height: 280px;
+  }
+  .card .container-content .card-content {
+    width: auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
