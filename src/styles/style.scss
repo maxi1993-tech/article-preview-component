@@ -187,6 +187,21 @@ a {
         fill: white;
     }
 
+    .btn-share:hover {
+        background-color: var(--grey-500);
+
+        path {
+            fill: white;
+        }                   
+    }
+
+    .btn-share:focus {
+        background-color: var(--grey-500);
+
+        path {
+            fill: white;
+        }
+    }
 }
 
 .wrapper-share {

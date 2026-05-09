@@ -166,6 +166,18 @@ a {
 .profile .btn-share.is-active path {
   fill: white;
 }
+.profile .btn-share:hover {
+  background-color: var(--grey-500);
+}
+.profile .btn-share:hover path {
+  fill: white;
+}
+.profile .btn-share:focus {
+  background-color: var(--grey-500);
+}
+.profile .btn-share:focus path {
+  fill: white;
+}
 
 .wrapper-share {
   height: 4.75rem;
