@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](#)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-built-with-sass-flexbox-and-javascript-SIvtHBjile](https://www.frontendmentor.io/solutions/article-preview-component-built-with-sass-flexbox-and-javascript-SIvtHBjile)
 - Live Site URL: [https://maxi1993-tech.github.io/article-preview-component/](https://maxi1993-tech.github.io/article-preview-component/)
 
 ## My process
